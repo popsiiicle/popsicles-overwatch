@@ -210,7 +210,12 @@ settings {
                 "passiveHealthRegen": false,
             },
             "pharah": {
-                "enablePassiveUnlimitedFuel": true,
+                "ammoClipSize%": 83,
+                "passiveVerticalSpeed%": 170,
+                "jumpVerticalSpeed%": 60,
+                "movementGravity%": 90,
+                "primaryFireKb%": 200,
+                "secondaryFireCooldown%": percent(OW1_PHARAH_JET_DASH_COOLDOWN/OW2_PHARAH_JET_DASH_COOLDOWN),
                 "ability1RefuelScalar": 0,
                 "ability1Cooldown%": percent(OW1_PHARAH_JUMP_JET_COOLDOWN/OW2_PHARAH_JUMP_JET_COOLDOWN),
                 "ability2Cooldown%": percent(OW1_PHARAH_CONCUSSIVE_BLAST_COOLDOWN/OW2_PHARAH_CONCUSSIVE_BLAST_COOLDOWN),
