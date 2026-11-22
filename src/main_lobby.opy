@@ -6,4 +6,4 @@
 #!include "common/constants/ow2_constants.opy"
 #!include "common/macro_functions.opy"
 
-#!include "lobby/ow1em_lobby.opy"
+#!include "lobby/ow1em_dev_lobby.opy"
