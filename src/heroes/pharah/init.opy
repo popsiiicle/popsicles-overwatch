@@ -13,7 +13,7 @@ def initPharah():
     setUltCost(OW1_PHARAH_ULT_COST)
     setBaseDamage(eventPlayer, OW1_MELEE_DAMAGE/OW2_MELEE_DAMAGE) #set it to 1 so its the lowest amount of damage possible
 
-    initHoverJets()
+    #initHoverJets()
 
 
 rule "[pharah/init.opy]: Clean up Pharah":
@@ -21,7 +21,7 @@ rule "[pharah/init.opy]: Clean up Pharah":
     @Condition eventPlayer.getCurrentHero() == Hero.PHARAH
 
     waitUntil(eventPlayer.getCurrentHero() != Hero.PHARAH, Math.INFINITY)
-    hideFuelGui()
+    #hideFuelGui()
 
 rule "[pharah/init.opy]: Compensate Pharah global damage reduction":
     @Event playerDealtDamage
