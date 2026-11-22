@@ -34,6 +34,7 @@ settings {
             },
             "disabledHeroes": [
                 "anran",
+                "doctrine",
                 "domina",
                 "emre",
                 "freja",
