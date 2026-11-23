@@ -4,7 +4,7 @@
 #!include "rocket_launcher.opy"
 #!include "concussive.opy"
 #!include "barrage.opy"
-
+#!include "slam.opy"
 
 def initPharah():
     @Name "[pharah/init.opy]: initPharah()"
